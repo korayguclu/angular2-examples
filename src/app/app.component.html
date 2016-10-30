@@ -2,4 +2,19 @@
   {{title}}
 </h1>
 
-<search-box></search-box>
+<div >Collapse Element</div>
+
+
+<app-search-box placeholder="Custom value2 " (keyupEvent)="picker.onClick($event)"></app-search-box> 
+
+<hr>
+<div appCollapseOnClick class="animated">
+<app-color-picker  (color)="previewer.color= $event" #picker></app-color-picker>
+</div>
+
+<button (click)="picker.reset()">Reset Color</button>
+
+<hr>
+<h3>Selected Color:</h3>
+
+<app-color-preview #previewer color="#efefef"></app-color-preview>

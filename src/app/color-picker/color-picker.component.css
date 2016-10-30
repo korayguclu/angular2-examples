@@ -1,0 +1,20 @@
+.color-picker {
+    display:bloc;
+}
+
+.color-sample{
+    display: inline-block;
+    padding: 15px;
+    width:100px;
+    height:100px; 
+    border: 1px solid #efefef;
+} 
+
+.color-sample-red{
+    background-color: #1976d2;
+}
+.color-sample-blue{
+    background-color: #b13138;
+}
+ 
+

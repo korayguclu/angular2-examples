@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  onColorChanged(event){
+    console.log("Event:",event);
+  }
+
 }
